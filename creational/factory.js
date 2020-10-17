@@ -23,7 +23,7 @@ class MemberFactory {
 		const member = new Membership(name);
 		member.type = type;
 		member.define = function () {
-			console.log(`${ this.name } (${ this.type }): ${ this.cost }`)
+			console.log(`${ this.name } (${ this.type }): ${ this.cost }`);
 		}
 
 		return member;
@@ -37,4 +37,4 @@ const members = [
 	factory.create('Diana', 'premium')
 ]
 
-members.forEach(m => m.define())
+members.forEach(m => m.define());
