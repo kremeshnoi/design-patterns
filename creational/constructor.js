@@ -12,7 +12,7 @@ ServerES5.prototype.getUrl = function () {
 const aws = new ServerES5('AWS Ukraine', '8.800.555.35.35');
 console.log(aws.getUrl());
 
-// ES6+
+// ES6
 
 class ServerES6 {
 	constructor(name, ip) {
