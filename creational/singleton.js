@@ -3,10 +3,13 @@
 class Database {
 	constructor(data) {
 		/*
+
 			The key part.
 			Checking if the database is running to prevent "restarting" etc. (creating a new instance).
+
 		*/
 		if (Database.exist) return Database.instance;
+
 		// and only then...
 		Database.instance = this;
 		Database.exist = true;
