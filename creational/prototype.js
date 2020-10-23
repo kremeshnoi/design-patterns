@@ -1,3 +1,11 @@
+/*
+
+	The GoF refer to the prototype pattern
+	as one which creates objects based on a template
+	of an existing object through cloning.
+
+ */
+
 const invoice = {
 	salary: '800$',
 

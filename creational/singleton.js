@@ -1,16 +1,15 @@
-// It is used when we need an object in a SINGLE INSTANCE !!!
+/*
+
+	Classically, the Singleton pattern can be implemented
+	by creating a class with a method that creates a new instance
+	of the class if one doesn't exist. In the event of an instance
+	already existing, it simply returns a reference to that object.
+
+ */
 
 class Database {
 	constructor(data) {
-		/*
-
-			The key part.
-			Checking if the database is running to prevent "restarting" etc. (creating a new instance).
-
-		*/
 		if (Database.exist) return Database.instance;
-
-		// and only then...
 		Database.instance = this;
 		Database.exist = true;
 		this.data = data;
