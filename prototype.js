@@ -7,17 +7,17 @@
  */
 
 const invoice = {
-	salary: '800$',
+	salary: "800$",
 
 	init() {
-		console.log(`${ this.name }: monthly salary is ${ this.salary }`);
+		console.log(`${ this.name }: monthly salary is ${ this.salary }`)
 	}
 }
 
 const personSalary = Object.create(invoice, {
 	name: {
-		value: 'Alex'
+		value: "Alex"
 	}
 })
 
-personSalary.init();
+personSalary.init()
