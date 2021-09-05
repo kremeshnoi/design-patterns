@@ -2,7 +2,7 @@
 
 	Classically, Decorators offered the ability to add behaviour
 	to existing classes in a system dynamically. The idea was that
-	the decoration itself wasn"t essential to the base functionality
+	the decoration itself wasn't essential to the base functionality
 	of the class, otherwise it would be baked into the superclass itself.
 
  */
